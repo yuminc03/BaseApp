@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-
+ 
     lateinit var button1 : Button
     lateinit var check1 : CheckBox
     lateinit var check2 : CheckBox
