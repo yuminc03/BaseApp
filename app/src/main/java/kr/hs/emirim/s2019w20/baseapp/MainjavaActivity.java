@@ -28,7 +28,7 @@ public class MainjavaActivity extends AppCompatActivity implements View.OnClickL
     }
     @Override
     public void onClick(View view){
-        switch (view.getId()){//클릭한 view아이디 값 리턴
+        switch (view.getId()){ //클릭한 view아이디 값 리턴
             case R.id.toastButton:
                 Toast.makeText(this, "나 클릭되었어요",
                         Toast.LENGTH_SHORT).show();
